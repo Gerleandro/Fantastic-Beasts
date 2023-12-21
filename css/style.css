@@ -57,3 +57,27 @@ body {
     grid-gap: 20px;
     margin-bottom: 4rem;
 }
+
+.title {
+    font-family: 'Playfair Display SC', georgia;
+    font-size: 6rem;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    grid-column: 1 / 4;
+}
+
+.animals h2 {
+    font-family: 'sarala', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-bottom: 1rem;
+    color:
+}
+
+.animals p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
