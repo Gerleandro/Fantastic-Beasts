@@ -17,7 +17,7 @@ body {
     background-color: #faf6ed;
     color:#222;
     -webkit-font-smoothing: antialiased;
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
 }
 
@@ -73,11 +73,54 @@ body {
     text-transform: uppercase;
     letter-spacing: .1em;
     margin-bottom: 1rem;
-    color:
+    color: #e54;
+}
+
+.animals h2::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: #fb5;
 }
 
 .animals p {
     font-family: 'Poppins', sans-serif;
     line-height: 1.2;
     margin-bottom: 1rem;
+}
+
+.animals-list {
+    height: 370px;
+    overflow-y: scroll;
+    grid-column: 2;
+}
+
+.animals-list::-webkit-scrollbar {
+    width: 18px;
+}
+
+.animals-list::-webkit-scrollbar-thumb {
+    background-color: #fb5;
+    margin-left: 4px solid #faf6fa;
+    margin-right: 4px solid #faf6fa;
+}
+
+.animals-list::-webkit-scrollbar-track {
+    background-color: #faf6ed;
+    border-left: 4px solid #faf6ed;
+    border-right: 4px solid #faf6ed;
+}
+
+.animals-description {
+    grid-column: 3;
+}
+
+.animals-description section {
+    margin-bottom: 3rem;
+}
+
+.faq-list {
+    grid-column: 2 / 4;
 }
